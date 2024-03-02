@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.springjpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,17 +9,17 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.servers.Server;
 
-@OpenAPIDefinition(servers = {@Server(url = "https://www.lidy.synology.me/demo"), @Server(url = "/")})
+@OpenAPIDefinition(servers = {@Server(url = "https://www.lidy.synology.me/springjpa"), @Server(url = "/")})
 @SpringBootApplication(exclude = SecurityAutoConfiguration.class)
-public class DemoApplication extends SpringBootServletInitializer {
+public class SpringJPAApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(SpringJPAApplication.class, args);
 	}
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(DemoApplication.class);
+		return application.sources(SpringJPAApplication.class);
 	}
 
 }

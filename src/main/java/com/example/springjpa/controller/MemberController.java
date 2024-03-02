@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.springjpa.controller;
 
 import java.util.UUID;
 
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.model.Member;
-import com.example.demo.model.Team;
-import com.example.demo.repository.MemberRepository;
-import com.example.demo.repository.TeamRepository;
+import com.example.springjpa.model.Member;
+import com.example.springjpa.model.Team;
+import com.example.springjpa.repository.MemberRepository;
+import com.example.springjpa.repository.TeamRepository;
 
 @RestController
 public class MemberController {

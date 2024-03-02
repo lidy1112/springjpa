@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.springjpa;
 
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
@@ -6,13 +6,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.demo.model.Team;
-import com.example.demo.repository.TeamRepository;
+import com.example.springjpa.model.Team;
+import com.example.springjpa.repository.TeamRepository;
 
 @SpringBootTest
-class DemoApplicationTests {
+class SpringJPAApplicationTests {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(DemoApplicationTests.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(SpringJPAApplicationTests.class);
 	@Autowired
 	private TeamRepository teamRepository;
 

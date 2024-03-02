@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.springjpa.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.model.Team;
-import com.example.demo.repository.TeamRepository;
+import com.example.springjpa.model.Team;
+import com.example.springjpa.repository.TeamRepository;
 
 /**
  * 자바독 추가

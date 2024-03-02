@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.springjpa.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.example.demo.model.Mail;
-import com.example.demo.service.MailService;
+import com.example.springjpa.model.Mail;
+import com.example.springjpa.service.MailService;
 
 @Controller
 public class MailController {

@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.example.springjpa.config;
 
 import org.jasypt.encryption.StringEncryptor;
 import org.jasypt.encryption.pbe.PooledPBEStringEncryptor;

@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.springjpa.model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
