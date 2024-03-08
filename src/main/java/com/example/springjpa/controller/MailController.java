@@ -18,7 +18,7 @@ public class MailController {
 	@ResponseBody
 	public String sendMail(@PathVariable String mailAddr){
 		Mail mail = new Mail();
-		mail.setMailFrom("lidy1112@gmail.com");
+		mail.setMailFrom("lidytalk@gmail.com");
 		mail.setMailTo(mailAddr);
 		mail.setMailSubject("Spring Boot - Email demo");
 		mail.setMailContent("테스트 메일입니다.");
